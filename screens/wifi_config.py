@@ -1,10 +1,9 @@
-from appium.webdriver.common.appiumby import AppiumBy
 from appium import webdriver
 
 from screens.base_screen import BaseScreen
 
 
-class WiFiPage(BaseScreen):
+class WiFiConfig(BaseScreen):
 
     def __init__(self, driver):
         super().__init__(driver)
