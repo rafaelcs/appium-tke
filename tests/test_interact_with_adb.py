@@ -1,6 +1,5 @@
 import pytest
 from screens.app_screen import AppScreen
-import time
 
 
 class TestInteractWithAdb:
